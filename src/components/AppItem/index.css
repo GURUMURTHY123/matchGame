@@ -1,0 +1,16 @@
+.app-item {
+  margin-right: 0.1rem;
+  margin-bottom: 0.5rem;
+  width: 23%;
+}
+
+.app-image-button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  align-self: flex-start;
+}
+
+.app-image {
+  width: 100%;
+}

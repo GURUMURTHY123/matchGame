@@ -1,0 +1,22 @@
+.tab-item {
+  margin-right: 0.2rem;
+  width: 25%;
+  text-align: center;
+}
+
+.tab-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #ffffff;
+}
+
+.tab-text {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.active {
+  border-bottom: 3px solid #fec653;
+  color: #fec653;
+}
