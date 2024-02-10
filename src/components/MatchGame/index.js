@@ -100,7 +100,7 @@ class MatchGame extends Component {
         <Header timeElapsedInSeconds={timeElapsedInSeconds} score={score} />
         <div className="app-body">
           {isGameInProgress ? (
-            <div>
+            <div className="game-body">
               <img src={activeImageUrl} alt="match" className="match-image" />
               <ul className="tab-list-container">
                 {tabsList.map(eachTab => (

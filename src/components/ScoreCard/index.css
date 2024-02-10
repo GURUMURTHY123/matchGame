@@ -2,6 +2,7 @@
   background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
   background-size: cover;
   width: 96%;
+  height: 65vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,6 +13,9 @@
 @media screen and (min-width: 768px) {
   .card {
     background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+    width: 35%;
+    height: 600px;
+    padding-top: 10rem;
   }
 }
 

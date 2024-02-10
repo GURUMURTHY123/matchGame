@@ -12,6 +12,17 @@
   width: 100%;
 }
 
+@media screen and (min-width: 768px) {
+  .game-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .match-image {
+    width: 50%;
+  }
+}
+
 .tab-list-container {
   list-style-type: none;
   padding: 0;
@@ -22,6 +33,12 @@
   margin: 2.2rem 0rem;
 }
 
+@media screen and (min-width: 768px) {
+  .tab-list-container {
+    width: 50%;
+  }
+}
+
 .app-items-container {
   list-style-type: none;
   padding: 0;
@@ -30,6 +47,12 @@
   justify-content: center;
   flex-wrap: wrap;
   width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .app-items-container {
+    width: 60%;
+  }
 }
 
 .score-card-container {
